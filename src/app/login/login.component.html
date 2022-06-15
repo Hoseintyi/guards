@@ -1,0 +1,5 @@
+<p>User Login Place</p>
+
+<button  *ngIf="!isAuthrize" (click)="onLogIn()" class="btn btn-success m-2"> Login </button>
+
+<button  *ngIf="isAuthrize" (click)="onLogOut()"  class="btn btn-danger m-2"> LogOut </button>
